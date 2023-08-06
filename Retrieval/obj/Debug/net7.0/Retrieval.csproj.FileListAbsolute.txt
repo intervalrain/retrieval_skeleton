@@ -1,0 +1,15 @@
+/Users/rainhu/workspace/Project/Retrieval/Retrieval/bin/Debug/net7.0/Retrieval
+/Users/rainhu/workspace/Project/Retrieval/Retrieval/bin/Debug/net7.0/Retrieval.deps.json
+/Users/rainhu/workspace/Project/Retrieval/Retrieval/bin/Debug/net7.0/Retrieval.runtimeconfig.json
+/Users/rainhu/workspace/Project/Retrieval/Retrieval/bin/Debug/net7.0/Retrieval.dll
+/Users/rainhu/workspace/Project/Retrieval/Retrieval/bin/Debug/net7.0/Retrieval.pdb
+/Users/rainhu/workspace/Project/Retrieval/Retrieval/obj/Debug/net7.0/Retrieval.csproj.AssemblyReference.cache
+/Users/rainhu/workspace/Project/Retrieval/Retrieval/obj/Debug/net7.0/Retrieval.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rainhu/workspace/Project/Retrieval/Retrieval/obj/Debug/net7.0/Retrieval.AssemblyInfoInputs.cache
+/Users/rainhu/workspace/Project/Retrieval/Retrieval/obj/Debug/net7.0/Retrieval.AssemblyInfo.cs
+/Users/rainhu/workspace/Project/Retrieval/Retrieval/obj/Debug/net7.0/Retrieval.csproj.CoreCompileInputs.cache
+/Users/rainhu/workspace/Project/Retrieval/Retrieval/obj/Debug/net7.0/Retrieval.dll
+/Users/rainhu/workspace/Project/Retrieval/Retrieval/obj/Debug/net7.0/refint/Retrieval.dll
+/Users/rainhu/workspace/Project/Retrieval/Retrieval/obj/Debug/net7.0/Retrieval.pdb
+/Users/rainhu/workspace/Project/Retrieval/Retrieval/obj/Debug/net7.0/Retrieval.genruntimeconfig.cache
+/Users/rainhu/workspace/Project/Retrieval/Retrieval/obj/Debug/net7.0/ref/Retrieval.dll
