@@ -4,11 +4,19 @@ namespace Retrieval.RetrievalForms.Enumerates
 {
     public enum DataTypeOption
     {
-        SOURCE_LOT,
-        LOT,
-        WAFER,
-        IMAGE,
-        RAW,
-        DIE
+        Product,
+        Stage,
+        Step,
+        StepName,
+        Technology,
+        Generation,
+        Process,
+        Recipe,
+        TestProgram,
+        TestType,
+        SubCon,
+        MeasureEq,
+        ProcessEq,
+        Metrology
     }
 }

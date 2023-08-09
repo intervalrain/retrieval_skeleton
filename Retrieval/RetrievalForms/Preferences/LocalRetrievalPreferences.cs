@@ -3,9 +3,9 @@ using Retrieval.SDK;
 
 namespace Retrieval.RetrievalForms.Preferences
 {
-    public class LocalRetrievalPreferences
+    public static class LocalRetrievalPreferences
     {
-        public CustomPreference UserLoginPreference;
-        public CustomPreference TracingRetrievalPreference;
+        public static CustomPreference UserLoginPreference = null;
+        public static CustomPreference TracingRetrievalPreference = null;
     }
 }

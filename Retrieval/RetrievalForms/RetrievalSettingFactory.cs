@@ -5,25 +5,62 @@ namespace Retrieval.RetrievalForms
 {
     public static class RetrievalSettingFactory
     {
-        public static IRetrievalSetting DataRetrievalSetting => GetDataRetrievalSetting();
-        
-        public static IRetrievalSetting BringInDataRetrievalSetting => GetBringInDataRetrievalSetting();
-        
-        public static IRetrievalSetting DataOnDemandRetrievalSetting => GetDataOnDemandRetrievalSetting();
-
-        private static DataRetrievalSetting GetDataRetrievalSetting()
+        private static DataRetrievalSetting _dataRetrievalSetting = null;
+        private static BringInDataRetrievalSetting _bringInDataRetrievalSetting = null;
+        private static DataOnDemandRetrievalSetting _dataOnDemandRetrievalSetting = null;
+        private static readonly object lock1 = new object();
+        private static readonly object lock2 = new object();
+        private static readonly object lock3 = new object();
+        public static IRetrievalSetting DataRetrievalSetting
         {
-            return new DataRetrievalSetting();
+            get
+            {
+                if (_dataRetrievalSetting == null)
+                {
+                    lock (lock1)
+                    {
+                        if (_dataRetrievalSetting == null)
+                        {
+                            _dataRetrievalSetting = new DataRetrievalSetting();
+                        }
+                    }
+                }
+                return _dataRetrievalSetting;
+            }
         }
-        
-        private static BringInDataRetrievalSetting GetBringInDataRetrievalSetting()
+        public static IRetrievalSetting BringInDataRetrievalSetting
         {
-            return new BringInDataRetrievalSetting();
+            get
+            {
+                if (_bringInDataRetrievalSetting == null)
+                {
+                    lock (lock2)
+                    {
+                        if (_bringInDataRetrievalSetting == null)
+                        {
+                            _bringInDataRetrievalSetting = new BringInDataRetrievalSetting();
+                        }
+                    }
+                }
+                return _bringInDataRetrievalSetting;
+            }
         }
-        
-        private static DataOnDemandRetrievalSetting GetDataOnDemandRetrievalSetting()
+        public static IRetrievalSetting DataOnDemandRetrievalSetting
         {
-            return new DataOnDemandRetrievalSetting();
+            get
+            {
+                if (_dataOnDemandRetrievalSetting == null)
+                {
+                    lock (lock3)
+                    {
+                        if (_dataOnDemandRetrievalSetting == null)
+                        {
+                            _dataOnDemandRetrievalSetting = new DataOnDemandRetrievalSetting();
+                        }
+                    }
+                }
+                return _dataOnDemandRetrievalSetting;
+            }
         }
     }
 }
