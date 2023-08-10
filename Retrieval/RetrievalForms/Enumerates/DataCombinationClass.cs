@@ -11,6 +11,7 @@ namespace Retrieval.RetrievalForms.Enumerates
         WEH_Slot,
         QT,
         Inline,
-        WAT
+        WAT,
+        Defect
     }
 }
