@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WT0o6QxZQBu7egLnrrjbWjCoy8+rgy7/Ap6jUPmypUmaJCV+QwezMIuT3YRG9eYSH1s8/9ret8Q9Lmdl2qrG0A==",
+  "dgSpecHash": "Qyt7J9ff0I+gqkzoGjPrpjazq/KrNBpUm7YVJennPMaTP1O86IjVzXj4ti/Km7SEu8eDs3cYWMshR2YkagKXbg==",
   "success": true,
-  "projectFilePath": "/Users/rainhu/workspace/Project/Retrieval/Retrieval/Retrieval.csproj",
+  "projectFilePath": "/Users/rainhu/workspace/project/retrieval_skeleton/Retrieval/Retrieval.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
