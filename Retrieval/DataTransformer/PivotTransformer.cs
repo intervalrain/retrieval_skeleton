@@ -8,7 +8,6 @@ namespace Retrieval.DataTransformer
     {
         public static void Transform(DataTable table, TableFormat format)
         {
-            
         }
     }    
 }

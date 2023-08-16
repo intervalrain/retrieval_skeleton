@@ -8,7 +8,7 @@ namespace Retrieval.DataLoader
 {
     public static class DataLoder
     {
-        public static DataTable Load(string sql, string text)
+        public static DataTable Load( string sql, string text)
         {
             IDBConnect connection = default;
             DataTable table = connection.ExecuteIntoTable(sql, text);

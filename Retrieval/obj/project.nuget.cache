@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Qyt7J9ff0I+gqkzoGjPrpjazq/KrNBpUm7YVJennPMaTP1O86IjVzXj4ti/Km7SEu8eDs3cYWMshR2YkagKXbg==",
+  "dgSpecHash": "rP8i0Kkg4WM0yaNhRwyRfhRjFPoWgxI08I+mVYy90n7m9UqYCHCcrN/bdl4TDL7YcTdLOgTwIx1ett8B4djOAg==",
   "success": true,
-  "projectFilePath": "/Users/rainhu/workspace/project/retrieval_skeleton/Retrieval/Retrieval.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/rainhu/workspace/Project/Retrieval/Retrieval/Retrieval.csproj",
+  "expectedPackageFiles": [
+    "/Users/rainhu/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/rainhu/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/Users/rainhu/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512"
+  ],
   "logs": []
 }

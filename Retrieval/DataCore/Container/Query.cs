@@ -10,7 +10,7 @@ namespace Retrieval.DataCore.Container
     {
         private IEnumerable<IField> fields;
         private IEnumerable<IFilter> filters;
-        public virtual string GetQuery()
+        public string GetQuery()
         {
             return "";
         }
