@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel;
+using Retrieval.Infrastructure.Enumerates;
 using Retrieval.RetrievalForms.Controls.Enumerates;
 using Retrieval.RetrievalForms.Enumerates;
 

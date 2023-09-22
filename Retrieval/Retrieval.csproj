@@ -8,7 +8,47 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="NUnit" Version="3.13.3" />
+      <None Remove="Infrastructure\" />
+      <None Remove="Infrastructure\DAL\" />
+      <None Remove="Infrastructure\Abstractions\" />
+      <None Remove="Infrastructure\Enumerates\" />
+      <None Remove="Infrastructure\Abstractions\DataModel.c" />
+      <None Remove="Infrastructure\DAL\Form\" />
+      <None Remove="Infrastructure\DAL\Core\" />
+      <None Remove="Infrastructure\DAL\Core\Entities\" />
+      <None Remove="Infrastructure\DAL\Core\Repositories\" />
+      <None Remove="Infrastructure\DAL\Form\Entities\" />
+      <None Remove="Infrastructure\DAL\Form\Repositories\" />
+      <None Remove="Infrastructure\DAL\Form\Repositories\Abstractions\" />
+      <None Remove="Infrastructure\DAL\Form\Entities\Abstractions\" />
+      <None Remove="Infrastructure\DAL\Form\Models\" />
+      <None Remove="Infrastructure\DAL\Form\Models\Abstractions\" />
+      <None Remove="ToolKit\" />
+      <None Remove="Infrastructure\DAL\Form\Usecases\" />
     </ItemGroup>
-
+    <ItemGroup>
+      <Folder Include="Infrastructure\" />
+      <Folder Include="Infrastructure\DAL\" />
+      <Folder Include="Infrastructure\Abstractions\" />
+      <Folder Include="Infrastructure\Enumerates\" />
+      <Folder Include="Infrastructure\DAL\Form\" />
+      <Folder Include="Infrastructure\DAL\Core\" />
+      <Folder Include="Infrastructure\DAL\Core\Entities\" />
+      <Folder Include="Infrastructure\DAL\Core\Repositories\" />
+      <Folder Include="Infrastructure\DAL\Form\Entities\" />
+      <Folder Include="Infrastructure\DAL\Form\Repositories\" />
+      <Folder Include="Infrastructure\DAL\Form\Repositories\Abstractions\" />
+      <Folder Include="Infrastructure\DAL\Form\Entities\Abstractions\" />
+      <Folder Include="Infrastructure\DAL\Form\Models\" />
+      <Folder Include="Infrastructure\DAL\Form\Models\Abstractions\" />
+      <Folder Include="ToolKit\" />
+      <Folder Include="Infrastructure\DAL\Form\Usecases\" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="MSTest.TestAdapter" Version="3.1.1" />
+      <PackageReference Include="MSTest.TestFramework" Version="3.1.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
+      <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
+      <PackageReference Include="FakeItEasy" Version="7.4.0" />
+    </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 using System;
 
-namespace Retrieval.RetrievalForms.Enumerates
+namespace Retrieval.Infrastructure.Enumerates
 {
     public enum DataCombinationClass
     {

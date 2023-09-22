@@ -1,5 +1,6 @@
 using System;
 using System.Data;
+using Retrieval.Infrastructure.Enumerates;
 using Retrieval.RetrievalForms.Controls.Enumerates;
 using Retrieval.RetrievalForms.Enumerates;
 
@@ -7,142 +8,22 @@ namespace Retrieval.RetrievalForms
 {
     public class BringInDataRetrievalSetting : IRetrievalSetting
     {
+        public List<DataIndex> EnabledDataIndices()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool GetAutoFormatSelection()
+        {
+            throw new NotImplementedException();
+        }
+
         public List<DataCombinationClass> GetDataCombinationClassOptions()
         {
             throw new NotImplementedException();
         }
 
         public DataCombinationClass GetDataCombinationClassSelection()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool IsDataCombinationClassEnabled()
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<TableFormat> GetTableFormatOptions()
-        {
-            throw new NotImplementedException();
-        }
-
-        public TableFormat GetTableFormatSelection()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool IsTableFormatEnabled()
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<ParameterType> GetParameterTypeOptions()
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<ParameterType> GetParameterTypeSelection()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool IsParameterTypeEnabled()
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<DataTypeOption> GetDataType1ComboBoxOptions()
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<DataTypeOption> GetDataType2ComboBoxOptions()
-        {
-            throw new NotImplementedException();
-        }
-
-        public DataTypeOption GetDataType1ComboBoxSelection()
-        {
-            throw new NotImplementedException();
-        }
-
-        public DataTypeOption GetDataType2ComboBoxSelection()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool IsDataType1ComboBoxEnabled()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool IsDataType2ComboBoxEnabled()
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<string> GetDataType1Options()
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<string> GetDataType2Options()
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<string> GetDataType1Selections()
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<string> GetDataType2Selections()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool IsDataType1Enabled()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool IsDataType2Enabled()
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<LoadLevel> GetLoadLevelOptions()
-        {
-            throw new NotImplementedException();
-        }
-
-        public LoadLevel GetLoadLevelSelection()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool IsLoadLevelEnabled()
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<DateType> GetDateTypeOptions()
-        {
-            throw new NotImplementedException();
-        }
-
-        public DateType GetDateTypeSelection()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool IsRelativeDate()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool IsDateTypeEnabled()
         {
             throw new NotImplementedException();
         }
@@ -157,7 +38,72 @@ namespace Retrieval.RetrievalForms
             throw new NotImplementedException();
         }
 
-        public bool IsDataCombinationEnabled()
+        public List<DataIndex> GetDataIndexOptions()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<DataIndex> GetDataIndexSelections()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<DataTypeOption> GetDataType1ComboBoxOptions()
+        {
+            throw new NotImplementedException();
+        }
+
+        public DataTypeOption GetDataType1ComboBoxSelection()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<string> GetDataType1Options()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<string> GetDataType1Selections()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<DataTypeOption> GetDataType2ComboBoxOptions()
+        {
+            throw new NotImplementedException();
+        }
+
+        public DataTypeOption GetDataType2ComboBoxSelection()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<string> GetDataType2Options()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<string> GetDataType2Selections()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<DateType> GetDateTypeOptions()
+        {
+            throw new NotImplementedException();
+        }
+
+        public DateType GetDateTypeSelection()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<LoadLevel> GetLoadLevelOptions()
+        {
+            throw new NotImplementedException();
+        }
+
+        public LoadLevel GetLoadLevelSelection()
         {
             throw new NotImplementedException();
         }
@@ -172,22 +118,12 @@ namespace Retrieval.RetrievalForms
             throw new NotImplementedException();
         }
 
-        public bool IsLotEnabled()
+        public List<MergeType> GetMergeTypeOptions()
         {
             throw new NotImplementedException();
         }
 
-        public List<string> GetWaferOptions()
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<string> GetWaferSelections()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool IsWaferEnabled()
+        public MergeType GetMergeTypeSelection()
         {
             throw new NotImplementedException();
         }
@@ -202,7 +138,17 @@ namespace Retrieval.RetrievalForms
             throw new NotImplementedException();
         }
 
-        public bool IsParameterEnabled()
+        public List<ParameterType> GetParameterTypeOptions()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<ParameterType> GetParameterTypeSelection()
+        {
+            throw new NotImplementedException();
+        }
+
+        public StackMode GetStackMode()
         {
             throw new NotImplementedException();
         }
@@ -217,42 +163,72 @@ namespace Retrieval.RetrievalForms
             throw new NotImplementedException();
         }
 
-        public bool IsStatisticEnabled()
+        public List<TableFormat> GetTableFormatOptions()
         {
             throw new NotImplementedException();
         }
 
-        public List<DataIndex> GetDataIndexOptions()
+        public TableFormat GetTableFormatSelection()
         {
             throw new NotImplementedException();
         }
 
-        public List<DataIndex> GetDataIndexSelections()
+        public List<string> GetWaferOptions()
         {
             throw new NotImplementedException();
         }
 
-        public List<DataIndex> EnabledDataIndices()
+        public List<string> GetWaferSelections()
         {
             throw new NotImplementedException();
         }
 
-        public StackMode GetStackMode()
+        public bool IsAutoFormatEnabled()
         {
             throw new NotImplementedException();
         }
 
-        public bool IsStackModeEnabled()
+        public bool IsDataCombinationClassEnabled()
         {
             throw new NotImplementedException();
         }
 
-        public List<MergeType> GetMergeTypeOptions()
+        public bool IsDataCombinationEnabled()
         {
             throw new NotImplementedException();
         }
 
-        public MergeType GetMergeTypeSelection()
+        public bool IsDataType1ComboBoxEnabled()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool IsDataType1Enabled()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool IsDataType2ComboBoxEnabled()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool IsDataType2Enabled()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool IsDateTypeEnabled()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool IsLoadLevelEnabled()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool IsLotEnabled()
         {
             throw new NotImplementedException();
         }
@@ -262,12 +238,37 @@ namespace Retrieval.RetrievalForms
             throw new NotImplementedException();
         }
 
-        public bool GetAutoFormatSelection()
+        public bool IsParameterEnabled()
         {
             throw new NotImplementedException();
         }
 
-        public bool IsAutoFormatEnabled()
+        public bool IsParameterTypeEnabled()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool IsRelativeDate()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool IsStackModeEnabled()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool IsStatisticEnabled()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool IsTableFormatEnabled()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool IsWaferEnabled()
         {
             throw new NotImplementedException();
         }
