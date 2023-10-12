@@ -25,6 +25,19 @@
       <None Remove="Infrastructure\DAL\Form\Models\Abstractions\" />
       <None Remove="ToolKit\" />
       <None Remove="Infrastructure\DAL\Form\Usecases\" />
+      <None Remove="ToolKit\Enums\" />
+      <None Remove="ToolKit\Models\" />
+      <None Remove="ToolKit\Models\Expressions\" />
+      <None Remove="ToolKit\Models\Visitors\" />
+      <None Remove="ToolKit\Models\Declarations\" />
+      <None Remove="ToolKit\Models\Readers\" />
+      <None Remove="ToolKit\Models\Providers\" />
+      <None Remove="ToolKit\Models\Evaluators\" />
+      <None Remove="ToolKit\Models\Translators\" />
+      <None Remove="ToolKit\Models\Projectors\" />
+      <None Remove="ToolKit\Models\Abstractions\" />
+      <None Remove="ToolKit\Utils\" />
+      <None Remove="ToolKit\Containers\" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Infrastructure\" />
@@ -43,6 +56,19 @@
       <Folder Include="Infrastructure\DAL\Form\Models\Abstractions\" />
       <Folder Include="ToolKit\" />
       <Folder Include="Infrastructure\DAL\Form\Usecases\" />
+      <Folder Include="ToolKit\Enums\" />
+      <Folder Include="ToolKit\Models\" />
+      <Folder Include="ToolKit\Models\Expressions\" />
+      <Folder Include="ToolKit\Models\Visitors\" />
+      <Folder Include="ToolKit\Models\Declarations\" />
+      <Folder Include="ToolKit\Models\Readers\" />
+      <Folder Include="ToolKit\Models\Providers\" />
+      <Folder Include="ToolKit\Models\Evaluators\" />
+      <Folder Include="ToolKit\Models\Translators\" />
+      <Folder Include="ToolKit\Models\Projectors\" />
+      <Folder Include="ToolKit\Models\Abstractions\" />
+      <Folder Include="ToolKit\Utils\" />
+      <Folder Include="ToolKit\Containers\" />
     </ItemGroup>
     <ItemGroup>
       <PackageReference Include="MSTest.TestAdapter" Version="3.1.1" />

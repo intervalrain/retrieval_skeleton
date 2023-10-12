@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Linq.Expressions;
+using Retrieval.ToolKit.Models.Providers;
 
 namespace Retrieval.ToolKit
 {
@@ -8,7 +9,7 @@ namespace Retrieval.ToolKit
 	{
 		QueryProvider provider;
 		Expression expression;
-		public Query(QueryProvider provider)
+		public Query(QueryProvider queryProvider, QueryProvider provider)
 		{
 			if (provider == null)
 				throw new ArgumentNullException("provider");

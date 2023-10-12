@@ -1,48 +1,93 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{75DB573B-32CE-4962-BBC1-966EF7F1C9D5}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Retrieval/Testing/IRepository.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rainhu/workspace/Project/Retrieval/Retrieval.Test/ToolKit/ToolKitTest.cs" relfile="Retrieval.Test/ToolKit/ToolKitTest.cs" line="10" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Retrieval/ToolKit/Models/Visitors/DbExpressionVisitor.cs">
     <Files>
-      <File FileName="Retrieval/Infrastructure/Abstractions/Repositories/IProductRepository (copy).cs" Line="4" Column="31" />
-      <File FileName="Retrieval/Infrastructure/Enumerates/DataCombinationClass.cs" Line="3" Column="20" />
-      <File FileName="Retrieval/Infrastructure/Abstractions/DataModel.cs" Line="6" Column="3" />
-      <File FileName="Retrieval/Infrastructure/DAL/Form/Entities/ProductEntity.cs" Line="7" Column="35" />
-      <File FileName="Retrieval/Infrastructure/DAL/Form/Entities/Abstractions/IProductEntity.cs" Line="4" Column="29" />
-      <File FileName="Retrieval/Infrastructure/DAL/Form/Entities/StageEntity.cs" Line="10" Column="6" />
-      <File FileName="Retrieval/Infrastructure/DAL/Form/Entities/DataCombinationEntity.cs" Line="8" Column="34" />
-      <File FileName="Retrieval/Infrastructure/DAL/Form/Repositories/ProductRepository.cs" Line="30" Column="49" />
-      <File FileName="Retrieval/Infrastructure/DAL/Form/Repositories/Abstractions/IRetrievalRepository.cs" Line="8" Column="49" />
-      <File FileName="Retrieval/RetrievalTest.cs" Line="47" Column="83" />
-      <File FileName="Retrieval/Program.cs" Line="25" Column="88" />
-      <File FileName="Retrieval/Infrastructure/DAL/Form/Models/Abstractions/DataModel.cs" Line="6" Column="1" />
-      <File FileName="Retrieval/Infrastructure/DAL/Form/Repositories/DataCombinationRepository.cs" Line="1" Column="1" />
-      <File FileName="Retrieval/Infrastructure/DAL/Form/Repositories/Query.cs" Line="39" Column="1" />
-      <File FileName="Retrieval/Infrastructure/DAL/Form/Repositories/QueryProvider.cs" Line="40" Column="10" />
-      <File FileName="Retrieval/Infrastructure/DAL/Form/Repositories/TypeSystem.cs" Line="51" Column="6" />
-      <File FileName="Retrieval/UnitTest.cs" Line="24" Column="44" />
-      <File FileName="Retrieval/Testing/ParameterRepository.cs" Line="6" Column="34" />
-      <File FileName="Retrieval/EventBus.cs" Line="4" Column="44" />
-      <File FileName="Retrieval/Testing/ParameterUsecase.cs" Line="6" Column="69" />
-      <File FileName="Retrieval/Testing/ParameterUsecase (copy).cs" Line="22" Column="2" />
-      <File FileName="Retrieval/Testing/ParameterOutput.cs" Line="6" Column="26" />
-      <File FileName="Retrieval/Testing/IEventBus.cs" Line="1" Column="1" />
-      <File FileName="Retrieval/Testing/IRepository.cs" Line="7" Column="4" />
+      <File FileName="Retrieval/Infrastructure/DAL/Form/Usecases/DataCombinationFill.cs" />
+      <File FileName="Retrieval/Program.cs" />
+      <File FileName="Retrieval/ToolKit/DbQueryProvider.cs" Line="6" Column="36" />
+      <File FileName="Retrieval/Infrastructure/Abstractions/DbConnectionFactory.cs" />
+      <File FileName="Retrieval/Infrastructure/DAL/Form/Repositories/Abstractions/IRetrievalRepository.cs" />
+      <File FileName="Retrieval/Infrastructure/DAL/Form/Models/DataCombinationDataModel.cs" />
+      <File FileName="Retrieval/Infrastructure/DAL/Form/Models/Abstractions/DataModel.cs" />
+      <File FileName="Retrieval/ToolKit/Query.cs" Line="4" Column="42" />
+      <File FileName="Retrieval/ToolKit/QueryProvider.cs" Line="16" Column="17" />
+      <File FileName="Retrieval/ToolKit/ExpressionVisitor.cs" Line="18" Column="14" />
+      <File FileName="Retrieval/ToolKit/Evaluator.cs" Line="5" Column="46" />
+      <File FileName="Retrieval/ToolKit/SubtreeEvaluator.cs" Line="3" Column="46" />
+      <File FileName="Retrieval/ToolKit/Nominator.cs" Line="3" Column="44" />
+      <File FileName="Retrieval/ToolKit/ProjectionRow.cs" Line="2" Column="41" />
+      <File FileName="Retrieval/ToolKit/QueryTranslator.cs" Line="5" Column="38" />
+      <File FileName="Retrieval.Test/Usings.cs" />
+      <File FileName="Retrieval.Test/ToolKit/ToolKitTest.cs" />
+      <File FileName="Retrieval.Test/Retrieval.Test.csproj" />
+      <File FileName="Retrieval/ToolKit/TranslateResult.cs" Line="3" Column="31" />
+      <File FileName="Retrieval/ToolKit/ProjectionReader.cs" Line="5" Column="38" />
+      <File FileName="Retrieval/ToolKit/Enumerator.cs" Line="4" Column="37" />
+      <File FileName="Retrieval/ToolKit/DbExpressionType.cs" Line="4" Column="1" />
+      <File FileName="Retrieval/ToolKit/Models/Expressions/TableExpression (copy).cs" Line="23" Column="18" />
+      <File FileName="Retrieval/ToolKit/Models/Expressions/TableExpression.cs" Line="6" Column="1" />
+      <File FileName="Retrieval/ToolKit/Models/Expressions/ProjectionExpression.cs" Line="5" Column="45" />
+      <File FileName="Retrieval/ToolKit/Models/Expressions/ColumnExpression.cs" Line="6" Column="1" />
+      <File FileName="Retrieval/ToolKit/Models/Declaration/ColumnDeclaration.cs" Line="4" Column="48" />
+      <File FileName="Retrieval/ToolKit/ColumnProjector.cs" Line="6" Column="38" />
+      <File FileName="Retrieval/ToolKit/Models/Readers/ObjectReader.cs" Line="6" Column="43" />
+      <File FileName="Retrieval/ToolKit/ColumnProjection.cs" Line="3" Column="39" />
+      <File FileName="Retrieval/ToolKit/TypeManager.cs" Line="2" Column="34" />
+      <File FileName="Retrieval/ToolKit/Models/Visitors/DbExpressionVisitor.cs" Line="29" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Retrieval">
+          <Node name="Retrieval" expanded="True">
             <Node name="Retrieval">
-              <Node name="Dependencies" expanded="True">
-                <Node name="FrameworkReferences" expanded="True" />
-                <Node name="PackageDependencies" expanded="True" />
+              <Node name="Infrastructure" expanded="True">
+                <Node name="DAL" expanded="True">
+                  <Node name="Form" expanded="True">
+                    <Node name="Usecases" expanded="True" />
+                  </Node>
+                </Node>
               </Node>
-              <Node name="Testing" expanded="True" />
+              <Node name="ToolKit">
+                <Node name="Containers" expanded="True" />
+                <Node name="Models" expanded="True">
+                  <Node name="Abstractions" expanded="True" />
+                  <Node name="Declarations" expanded="True" />
+                  <Node name="Evaluators" expanded="True" />
+                  <Node name="Expressions" expanded="True" />
+                  <Node name="Projectors" expanded="True" />
+                  <Node name="Providers" expanded="True" />
+                  <Node name="Readers" expanded="True" />
+                  <Node name="Translators" expanded="True" />
+                  <Node name="Visitors" expanded="True">
+                    <Node name="DbExpressionVisitor.cs" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="Utils" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="Retrieval" expanded="True" selected="True">
+            <Node name="Retrieval" expanded="True">
+              <Node name="Retrieval" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Retrieval" expanded="True" selected="True" />
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
